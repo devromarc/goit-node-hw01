@@ -3,7 +3,7 @@ import path from "path";
 import { nanoid } from "nanoid";
 
 const contactsPath = path.join("db", "contacts.json");
-console.log(contactsPath);
+// console.log(contactsPath);
 
 const listContacts = async () => {
   try {
